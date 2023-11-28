@@ -26,6 +26,12 @@ Create a .env file and add your OpenAI API key
 ```python
 OPENAI_API_KEY="Your API Key"
 ```
+or 
+Set Local Variable If needed
+```python
+import os
+os.environ['OPENAI_API_KEY']='sk-......................'
+```
 
 ## **Usage**
 Run the application locally using the following command:
